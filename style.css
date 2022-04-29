@@ -5,7 +5,7 @@
 }
 
 .container {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -14,7 +14,18 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px 5px;
+    margin: 0 auto;
+    
+    
 }
+.sticky {
+    position: fixed;
+    top:0;
+    width: 100%;
+    background-color: #FF6433;
+}
+
+  
 
 .right-section{
     display: flex;
@@ -59,16 +70,18 @@
 }
 
 #first-section {
-    padding: 80px 0;
+    padding: 160px 0;
 }
 
 
 #first-section .text-section {
     width: 40%;
+    padding-left: 100px;
 }
 
 #first-section .image-section {
     width: 60%;
+    
 }
 
 #first-section .image-section {
@@ -81,6 +94,7 @@
 .text-section h1 {
     font-size: 64px;
     padding-top: 100px;
+    
 }
 
 .orange-btn {
@@ -260,9 +274,11 @@ font-size: 58px;
     list-style: none;
 }
 
+/* Forth Section */
+
 #forth-section {
-    padding: 80px 0;
-    padding-left: 120px;
+    width: 100%;
+    padding-top: 80px;
     background: #F2F2F2;
 }
 
@@ -276,11 +292,6 @@ font-size: 58px;
 
 #forth-section h4 {
     font-size: 58px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 65%;
-    margin-left: 215px;
     margin-bottom: 25px;
     text-align: center;
     
@@ -290,27 +301,25 @@ font-size: 58px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 90%;
-    margin-left: 45px;
+    width: 100%;
+    /* margin-left: 45px; */
     margin-bottom: 10px;
 }
 
 #forth-section .flex{
     justify-content: end;
-    padding-right: 9.5%;
+    padding-right: 1.5%;
 }
 
 #forth-section .know-more a {
     color: black;
     text-decoration: none;
-    margin-right: 15px;
+    /* margin-right: 15px; */
     display: flex;
     
 }
 
 #forth-section .flex .arrow img {
-    width: 70px;
-    margin-right: 10px;
     display: flex;
     margin-left: 15px;
     }
@@ -322,31 +331,39 @@ font-size: 58px;
 #fifth-section {
     width: 100%;
 }
+
+#fifth-section {
+    background-image: url(car.png), url(carPart.png);
+    background-position: left,right;
+    background-repeat: no-repeat;
+    height: 80vh;
+    background-size: 40% 60%;
+    background-color: #F2F2F2;
     
-.car-section img{
-    height: 400px;
-     
-}
-    
-.orange-part p{
-    width: 430%;
-    height: 400px;
-    background: #FF6433;
-    color: white;
-    font-size: 48px;
-    position: relative;
-    right: 400px;
-    padding-top: 80px;
 }
 
-.car-part img{
-    height: 400px;
-    position: relative;
+.orange-part{
+    width: 40%;
     
+}
+
+.orange-part p{  
+    height: 130px; 
+    background: #FF6433;
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    position: relative;
+    left: 280px;
+    top: 100px;
+    padding-top: 58px;
+    width: 100%;
+    height: 183%; 
 }
 
 .experience img{
     width: 100%;
+    padding-top: 240px;
     
 }
 
@@ -354,7 +371,16 @@ font-size: 58px;
 /* Last Section */
 
 .brand-text {
-    padding: 100px 0;
+    padding: 100px 0 40px 0;
     font-size: 48px;
+    text-align: center;
+}
+
+.brand-row img {
+    width: 80%;
+    
+}
+
+.brand-row{
     text-align: center;
 }
