@@ -330,48 +330,48 @@ font-size: 58px;
 
 #fifth-section {
     width: 100%;
-}
-
-#fifth-section {
-    background-image: url(car.png), url(carPart.png);
-    background-position: left,right;
-    background-repeat: no-repeat;
-    height: 80vh;
-    background-size: 40% 60%;
     background-color: #F2F2F2;
-    
+    padding-top: 90px;
 }
 
-.orange-part{
+.car {
+    width: 20%;
+    height: 450px;
+    background-image: url(car.png);
+    
+
+}
+
+.orange-part {
     width: 40%;
-    
-}
-
-.orange-part p{  
-    height: 130px; 
+    height: 450px;
     background: #FF6433;
     color: white;
-    text-align: center;
-    font-size: 48px;
-    position: relative;
-    left: 280px;
-    top: 100px;
-    padding-top: 58px;
-    width: 100%;
-    height: 183%; 
 }
+
+.orange-part p{ 
+    font-size: 48px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.carpart {
+    width: 40%;
+    height: 450px;
+    background-image: url(carPart.png);
+}
+
 
 .experience img{
     width: 100%;
-    padding-top: 240px;
-    
 }
+    
 
 
 /* Last Section */
 
 .brand-text {
-    padding: 100px 0 40px 0;
+    padding: 60px 0 40px 0;
     font-size: 48px;
     text-align: center;
 }
