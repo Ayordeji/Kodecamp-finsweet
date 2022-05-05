@@ -85,7 +85,9 @@
 }
 
 #first-section .image-section {
+
     background-image: url(/img/Header-Image.png);
+
     background-size: cover;
     background-position: center;
     min-height: 68vh;
@@ -337,7 +339,9 @@ font-size: 58px;
 .car {
     width: 20%;
     height: 450px;
+
     background-image: url(/img/car.png);
+
     
 
 }
@@ -358,7 +362,9 @@ font-size: 58px;
 .carpart {
     width: 40%;
     height: 450px;
+
     background-image: url(/img/carPart.png);
+
 }
 
 
