@@ -86,7 +86,7 @@
 
 #first-section .image-section {
 
-    background-image: url(/img/Header-Image.png);
+    background-image: url(img/Header-Image.png);
 
     background-size: cover;
     background-position: center;
@@ -340,7 +340,7 @@ font-size: 58px;
     width: 20%;
     height: 450px;
 
-    background-image: url(/img/car.png);
+    background-image: url(img/car.png);
 
     
 
@@ -363,7 +363,7 @@ font-size: 58px;
     width: 40%;
     height: 450px;
 
-    background-image: url(/img/carPart.png);
+    background-image: url(img/carPart.png);
 
 }
 
