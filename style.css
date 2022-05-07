@@ -390,3 +390,103 @@ font-size: 58px;
 .brand-row{
     text-align: center;
 }
+
+
+
+/* *************** */
+/* MOBILE VIEW */
+/* ************** */
+@media (max-width: 426px) {
+    .main-header, .right-section ul {
+        flex-direction: column;
+        
+    }
+
+    .main-header {
+        position: absolute;
+    }
+
+    .right-section ul li {
+        padding: 5px;
+    }
+
+    .right-section .navigation {
+        border: none;
+    }
+
+    .right-section ul li {
+        width: 100%;
+        
+    }
+
+    .right-section ul {
+        padding-left: 50px;
+    }
+
+    .road-assistance {
+        display: none;
+    }
+
+    .container .flex {
+        flex-direction: column;
+    }
+
+    #first-section .text-section {
+        width: 100%;
+        order: 2;
+            
+    }
+
+    #first-section {
+        padding: 60px 5px 0px 0px;
+    }
+
+   
+
+    #first-section .image-section {
+        width: 100%;
+        order: 1;
+        min-height: 90vh;
+        margin-right: 20px;
+    }
+
+    .text-section h1 {
+        padding-top: 20px;
+        position: relative;
+        color:#f3f3e1;
+        font-size: 42px;
+        bottom: 373px;
+        width: 100%;
+        right: 25px;
+    }
+
+    .right-section ul {
+        display: none;
+    }
+
+    .orange-btn {
+        position: relative;
+        bottom: 274px;
+       left: 16px;
+}
+    }
+
+    .time-section {
+        margin-top: 0px;
+        position: relative;
+        bottom: 398px;
+        color: white;
+        position: relative;
+        right: 20px;
+    }
+
+    .light-grey {
+        color: white;
+        
+    }
+
+
+    .time-section img{
+        width: 1000%;
+        
+    }
