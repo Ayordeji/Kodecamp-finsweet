@@ -396,7 +396,7 @@ font-size: 58px;
 /* *************** */
 /* MOBILE VIEW */
 /* ************** */
-@media (max-width: 426px) {
+@media (max-width: 362px) {
     .main-header, .right-section ul {
         flex-direction: column;
     }   
@@ -432,8 +432,7 @@ font-size: 58px;
 
     #first-section .text-section {
         width: 100%;
-        order: 2;
-            
+        order: 2;      
     }
 
     #first-section {
@@ -445,7 +444,7 @@ font-size: 58px;
     #first-section .image-section {
         width: 100%;
         order: 1;
-        min-height: 90vh;
+        min-height: 56vh;
         margin-right: 20px;
     }
 
@@ -453,10 +452,10 @@ font-size: 58px;
         padding-top: 20px;
         position: relative;
         color:#f3f3e1;
-        font-size: 42px;
-        bottom: 373px;
-        width: 100%;
-        right: 25px;
+        bottom: 315px;
+        width: 119%;
+        right: 70px;
+        font-size: 38px;
     }
 
     .right-section ul {
@@ -465,126 +464,28 @@ font-size: 58px;
 
     .orange-btn {
         position: relative;
-        bottom: 274px;
-       left: 16px;
+        bottom: 330px;
+        padding: 16px 18px;
+        right: 85px;
 }
     
 
     .time-section {
         margin-top: 0px;
         position: relative;
-        bottom: 398px;
-        color: white;
+        bottom: 280px;
+        color: black;
         position: relative;
         right: 20px;
     }
 
     .light-grey {
-        color: white;
-        
+        color: black; 
     }
 
 
     .time-section img{
-        width: 1000%;
-        
+        width: 1000%; 
+        padding-right: 30px;
     }
 }
-
-
-
-
-    @media (max-width: 768px) {
-        .main-header, .right-section ul {
-            flex-direction: column;
-        }   
-    
-        .main-header {
-            position: absolute;
-        }
-    
-        .right-section ul li {
-            padding: 5px;
-        }
-    
-        .right-section .navigation {
-            border: none;
-        }
-    
-        .right-section ul li {
-            width: 100%;
-            
-        }
-    
-        .right-section ul {
-            padding-left: 50px;
-        }
-    
-        .road-assistance {
-            display: none;
-        }
-    
-        .container .flex {
-            flex-direction: column;
-        }
-    
-        #first-section .text-section {
-            width: 100%;
-            order: 2;
-                
-        }
-    
-        #first-section {
-            padding: 60px 5px 0px 0px;
-        }
-    
-       
-    
-        #first-section .image-section {
-            width: 100%;
-            order: 1;
-            min-height: 90vh;
-            margin-right: 20px;
-        }
-    
-        .text-section h1 {
-            padding-top: 20px;
-            position: relative;
-            color:#f3f3e1;
-            font-size: 42px;
-            bottom: 373px;
-            width: 100%;
-            right: 25px;
-        }
-    
-        .right-section ul {
-            display: none;
-        }
-    
-        .orange-btn {
-            position: relative;
-            bottom: 274px;
-           left: 16px;
-    }
-        
-    
-        .time-section {
-            margin-top: 0px;
-            position: relative;
-            bottom: 398px;
-            color: white;
-            position: relative;
-            right: 20px;
-        }
-    
-        .light-grey {
-            color: white;
-            
-        }
-    
-    
-        .time-section img{
-            width: 1000%;
-            
-        }
-    }
