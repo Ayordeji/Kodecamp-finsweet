@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5px;
+    margin: 0 auto;
+    
+    
+}
+.sticky {
+    position: fixed;
+    top:0;
+    width: 100%;
+    background-color: #FF6433;
+}
+
+  
+
+.right-section{
+    display: flex;
+    align-items: center;
+
+}
+
+.right-section ul {
+    list-style: none;
+    display:flex;
+    
+}
+
+.road-assistance {
+    display:flex;
+    padding-left: 15px;
+}
+
+.right-section ul li {
+    margin-right: 20px;
+}
+
+.right-section ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.right-section .navigation {
+    border-right: 2px dashed grey;
+}
+
+
+.road-assistance .icon {
+    margin-right: 10px;
+}
+
+
+
+/* FOOTER */
+
+#footer {
+    background: #1E1B1B;
+}
+
+.footer-container {
+    display: flex;
+    padding-bottom: 80px;
+}
+
+.left-side {
+    width: 40%;
+}
+
+.right-side {
+    width: 60%;
+    margin-left: 10%;
+}
+
+   
+.left-text h2 {
+    font-size: 48px;
+    padding: 70px 0 50px 0;
+    color: white;
+}
+
+.left-side {
+    padding-left: 80px;
+}
+
+.left-logos img {
+    margin-right: 10px;
+}
+
+.right-text {
+    padding-top: 70px;
+    color: white;
+}
+
+.right-text small {
+    font-size: 18px;
+    
+}
+
+.right-text h4 {
+    font-size: 24px;
+    
+}
+
+#Our-services{
+    padding: 160px 160px;
+}
+
+.services {
+    display: flex;
+}
+
+.left-service {
+    width: 40%;
+    height: 450px;
+
+    background-image: url(img/service-car.png);
+}
+
+.right-service {
+    background: #1E1B1B;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-text {
+    width: 80%;
+    margin: 0 65px;
+    
+
+}
+
+.service-text h1 {
+    font-size: 64px;
+    color: #F2F2F2;
+    padding-bottom: 20px;
+
+}
+
+.service-text small {
+    font-size: 18px;
+    color: #F2F2F2;
+    }
+
+.service-button {
+    padding: 36px 65px;
+    
+}
+
+.service-button button {
+    color: #FFFFFF;
+    background-color: #FF6433;
+    padding: 15px 24px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER NAVIGATION */
+
+.footer-navigation {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background: #161111;
+
+}
+
+.footer-logo {
+    margin-left: 90px;
+}
+
+.footer-menu ul {
+    display: flex;
+} 
+
+.footer-menu ul li {
+        margin-right: 20px;
+        display: flex;
+    }
+    
+.footer-menu ul li a {
+        text-decoration: none;
+        color: white;
+    }
+
+.footer-copyright {
+    margin-right: 80px;
+
+    }
