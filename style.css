@@ -672,9 +672,41 @@ font-size: 58px;
 
 
 
+/* ****************/
+/* 1024px */
+/* ************** */
+
+@media (max-width: 1025px) {
+
+    #second-section {
+        width: 113%;
+    }
+
+    #second-section .left-section h2 {
+        width: 85%;
+    }
+
+    .Lsection {
+        width: 79%;
+        padding-left: 275px;
+        padding-top: 36px;
+    }
+
+    .line {
+        padding-left: 33px;
+    }
+
+    #forth-section .offer img {
+        width: 80%;
+    }
+
+    #forth-section, #fifth-section, #customer-section, #faq, #footer {
+        width: 113%;
+    }
 
 
 
+}
 
 
 
@@ -706,20 +738,20 @@ font-size: 58px;
     }
 
     #first-section .image-section {
-        width: 100%;
+        width: 113%;
+        padding: 433px;
 
     }
 
     #first-section .text-section {
-        width: 82%;
+        width: 113%;
         color: white;
-        position: relative;
-        bottom: 603px;
+        margin-top: -636px;
     }
 
     .orange-btn {
         margin-left: 38px;
-        margin-top: 52px;
+        margin-top: 123px;
     }
 
     .text-section h1 {
@@ -735,11 +767,29 @@ font-size: 58px;
     }
 
     .time-section {
-        margin-top: 24px;
+        margin-top: 44px;
+    }
+
+    .time-section {
+       width: 59%;
     }
 
     #first-section {
         padding: 120px 0 0 0;
+    }
+
+    #second-section {
+        padding-top: 162px;
+    }
+
+    #second-section .left-section, #second-section .right-section {
+        width: 100%;
+    }
+
+    .orange-btn {
+        margin-left: 54px;
+       margin-top: 52px;
+}
     }
 
 }
