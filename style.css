@@ -788,11 +788,28 @@ font-size: 58px;
 
     .orange-btn {
         margin-left: 54px;
-       margin-top: 52px;
+       margin-top: 126px;
 }
+
+    /* .Lsection {
+        padding-left: 212px;
     }
 
+    .right-section {
+        padding-right: 104px;
+    } */
+
+    #fifth-section, #forth-section, #third-section, #second-section, #first-section, #last-section, #faq, #footer, #customer-section {
+        display: none;
+    }
+
+    /* .sticky {
+        width: 89%;
+    } */
+
 }
+
+
 
 
  /* @media (max-width: 769px) {
