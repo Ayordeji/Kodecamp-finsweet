@@ -253,64 +253,6 @@ padding: 15px 0;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* FOOTER */
 
 #footer {
@@ -395,3 +337,48 @@ padding: 15px 0;
     margin-right: 80px;
 
     }
+
+
+
+@media (max-width: 769px) {
+
+    #Our-services {
+        padding: 160px 21px 80px 21px;
+    }
+    
+    .right-process {
+        flex-direction: column;
+    }
+
+    .service-button button {
+        padding: 20px 51px;
+        font-size: 18px;
+    }
+
+    .footer-menu {
+        margin-left: 76px;
+        margin-right: 56px;
+    }
+    
+    .footer-logo {
+        margin-left: 14px;
+    }
+}
+
+@media (max-width: 425px) {
+    #Our-services, #auto, #process, #diagnose, #footer {
+        width: 159%;
+    }
+}
+
+@media (max-width: 376px) {
+    #Our-services, #auto, #process, #diagnose, #footer {
+        width: 179%;
+    }
+}
+
+@media (max-width: 321px) {
+    #Our-services, #auto, #process, #diagnose, #footer {
+        width: 210%;
+    }
+}

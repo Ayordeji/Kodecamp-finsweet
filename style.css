@@ -469,7 +469,7 @@ font-size: 58px;
 }
 
 .minimize img {
-    padding-left: 20px;
+    padding-left: -6px;
     width: 170%;
 }
 
@@ -494,10 +494,26 @@ font-size: 58px;
     
 }
 
-.maximize img {
-    width: 10%;
-    margin-left: 284px;
+.maximize1 img {
+    width: 9%;
+    margin-left: 740px;
 }
+
+.maximize2 img {
+    width: 9%;
+    margin-left: 768px;
+}
+
+.maximize3 img {
+    width: 9%;
+    margin-left: 754px;
+}
+
+.maximize4 img {
+    width: 9%;
+    margin-left: 762px;
+}
+
 
 .faq-box-text2 h1{
     font-size: 24px;
@@ -596,85 +612,118 @@ font-size: 58px;
 
     }
 
+/* ********************** */
+    /* MEDIA QUERIES */
+/* ********************** */
 
-
-
-
-
-
-
-/* @media (max-width: 2562px) {
-    header .main-header {
-        padding: 20px 250px;
+@media (max-width: 2561px) {
+    #customer-section {
+        min-height: 36vh;
     }
 
-    .main-header .logo img {
-        width: 177%;
+    #faq {
+        min-height: 47vh;
     }
 
-    .right-section ul li a {
-        font-size: 36px;
-    }
-
-    .road-assistance {
-        font-size: 32px;
-    }
-
-    .icon img {
-        width: 200%;
-    }
-
-    .road-assistance .icon {
-        margin-right: 51px;
-    }
-
-    #first-section .image-section {
-        min-height: 86vh;
-    }
-
-    .text-section h1 {
-        font-size: 116px;
-    }
-
-    .orange-btn {
-        font-size: 43px;
-        padding: 36px 60px;
-    }
-
-    .time-section {
-        font-size: 40px;
-        margin-top: 53px;
-    }
-
-    .time-section .image-box {
-        width: 10%;   
+    .left-side {
+        width: 70%;
+        padding-left: 483px;
     }
 
     #second-section {
-        padding-left: 500px;
+        padding-left: 524px;
     }
 
-    #second-section .left-section h2 {
-        width: 73%;
+    #second-section .left-section, #second-section .right-section {
+        width: 43%;
     }
 
-    #third-section .flex{
-        align-items: center;
-        justify-content: center;
+    .Lsection {
+        width: 71%;
+        padding-left: 546px;
     }
 
-    
+    .text-section h1 {
+        font-size: 100px;
+    }
 
-} */
+    .orange-btn {
+        padding: 20px 43px;
+        font-size: 40px;
+    }
+
+    .time-section .time-text {
+        font-size: 34px;
+    }
+
+    .time-section .image-box {
+        width: 8%;
+    }
+
+    #first-section .text-section {
+        padding-top: 117px;
+    }
+
+}
+
+@media (max-width: 1441px) {
+    #customer-section {
+        min-height: 66vh;
+    }
+
+    .text-section h1 {
+        font-size: 64px;
+        padding-top: 0;
+    }
+
+    #first-section .text-section {
+        padding-top: 0;
+    }
+
+    .orange-btn {
+        padding: 16px 40px;
+        font-size: 20px;
+    }
+
+    .time-section .time-text {
+        font-size: 20px;
+    }
+
+    #second-section {
+        padding-left: 200px;
+    }
+
+    .Lsection {
+        padding-left: 120px;
+    }
+
+    .maximize1 img {
+        width: 16%;
+        margin-left: 241px;
+    }
+
+    .maximize2 img {
+        width: 15%;
+        margin-left: 263px;
+    }
+
+    .maximize3 img {
+        width: 15%;
+        margin-left: 249px;
+    }
+
+    .maximize4 img {
+        width: 15%;
+        margin-left: 258px; 
+    }
+
+    .left-side {
+        width: 70%;
+        padding-left: 133px;
+    }
 
 
-
-
-
-
-/* ****************/
-/* 1024px */
-/* ************** */
+}
 
 @media (max-width: 1025px) {
 
@@ -704,286 +753,159 @@ font-size: 58px;
         width: 113%;
     }
 
-
+    .minimize img {
+        padding-left: 32px;
+        width: 199%;
+    }
 
 }
 
+@media (max-width: 768px) {
 
-
-
-
-
-
-
-
-
-/* ************** */
-/* TABLET VIEW */
-/* ************** */
-
-
-@media (max-width: 769px) {
-    #forth-section .offer img {
-        display: none;
-    }
-
-    #first-section .container .flex {
-        display: flex;
-        flex-direction: column;
-    }
-
-    #first-section .text-section {
+   #second-section,  #forth-section, #fifth-section,  #faq, #footer, #customer-section {
         width: 100%;
-        order: 2;      
-    }
-
-    #first-section .image-section {
-        width: 113%;
-        padding: 433px;
 
     }
 
-    #first-section .text-section {
-        width: 113%;
-        color: white;
-        margin-top: -636px;
+
+    .text-section h1 {
+        font-size: 35px;
     }
 
     .orange-btn {
-        margin-left: 38px;
-        margin-top: 123px;
-    }
-
-    .text-section h1 {
-        margin-left: 17px;
-    }
-
-    .time-section .image-box {
-        width: 10%;
+        padding: 9px 21px;
+        font-size: 18px;
     }
 
     .time-section .time-text {
-        font-size: 1.5rem;
+        font-size: 11px;
     }
 
-    .time-section {
-        margin-top: 44px;
+    .Lsection h1 {
+        font-size: 43px;
+        width: 90%;
     }
 
-    .time-section {
-       width: 59%;
+    .Lsection {
+        padding-left: 120px;
+        width: 50%;
+        padding-top: 103px;
     }
 
-    #first-section {
-        padding: 120px 0 0 0;
+    .lines {
+        padding: 50px 0;
+    }
+
+    .maximize1 img, .maximize2 img, .maximize3 img, .maximize4 img {
+        width: 18%;
+        margin-left: 177px;
+    }
+
+    .left-side {
+        width: 58%;
+        padding-left: 48px;
+    }
+
+    .footer-logo {
+        padding-right: 79px;
+        margin-left: -19px;
+    }
+
+    .footer-menu ul {
+        padding-right: 39px;
     }
 
     #second-section {
-        padding-top: 162px;
+        padding-left: 97px;
     }
 
     #second-section .left-section, #second-section .right-section {
-        width: 100%;
+        width: 130%;
     }
 
-    .orange-btn {
-        margin-left: 54px;
-       margin-top: 126px;
-}
-
-    /* .Lsection {
-        padding-left: 212px;
-    }
-
-    .right-section {
-        padding-right: 104px;
-    } */
-
-    #fifth-section, #forth-section, #third-section, #second-section, #first-section, #last-section, #faq, #footer, #customer-section {
-        display: none;
-    }
-
-    /* .sticky {
-        width: 89%;
-    } */
 
 }
 
-
-
-
- /* @media (max-width: 769px) {
-   
-    .right-section .navigation {
-        border: none;
-    }
-
-    .road-assistance {
-        position: relative; 
-        right: 12px;
-    } 
-
-    
-    .sticky {
-        width: 75%;
-    }
-
-    .container .flex {
-        flex-direction: column;
-    }
-
-    #first-section .text-section {
-        width: 44%;
-        order: 2;                
-    }
-
-    #first-section {
-        padding: 60px 5px 0px 0px;
-    } 
-
-
-    #first-section .image-section {
-        width: 54%;
-        order: 1;
-        min-height: 92vh;
-        margin-right: 20px;
-        position: relative;
-        left: 368px;
-        top: 8px;
-    } 
-
-     .text-section h1 {
-        padding-top: 0px;
-        font-size: 40px;
-        right: 40px; 
-        width: 136%;
-        position: relative;
-        bottom: 288px;
-        
-     } 
-
-     
-    .orange-btn {
-        position: relative;
-        bottom: 311px;
-        padding: 11px 26px;
-     }
-    
-
-    .time-section {
-        margin-top: 0px;
-        position: relative;
-        bottom: 296px;
-        color: black;
-        position: relative;
-        right: 20px;
-        font-size: 15px;
-        width: 117%;
-    }
-
-       .time-section img{
-        width: 205%; 
-    } 
-
-}  */
-
-
-
-/* *************** */
-/* MOBILE VIEW */
-/* ************** */
-
-/* @media (max-width: 425px) {
-    .main-header, .right-section ul {
-        flex-direction: column;
-    }   
-
-    .main-header {
-        position: absolute;
-    }
-
-    .right-section ul li {
-        padding: 5px;
-    }
-
-    .right-section .navigation {
-        border: none;
-    }
-
-    .right-section ul li {
-        width: 100%;
-        
-    }
-
-    .right-section ul {
-        padding-left: 50px;
-    }
-
+@media (max-width: 426px) {
     .road-assistance {
         display: none;
     }
 
-    .container .flex {
-        flex-direction: column;
-    }
-
-    #first-section .text-section {
-        width: 100%;
-        order: 2;      
-    }
-
-    #first-section {
-        padding: 60px 5px 0px 0px;
-    }
-
-   
-
-    #first-section .image-section {
-        width: 100%;
-        order: 1;
-        min-height: 97vh;
-        margin-right: 20px;
-    }
-
-    .text-section h1 {
-        padding-top: 20px;
-        position: relative;
-        color:#f3f3e1;
-        width: 100%;
-        bottom: 302px;
-        font-size: 42px;
-        right: 40px;
-        
-    }
-
-    .right-section ul {
-        display: none;
+    #first-section, #second-section, #forth-section, #fifth-section, #faq, #footer, #customer-section, .Lsection, .Rsection  {
+        width: 146%;
     }
 
     .orange-btn {
-        position: relative;
-        bottom: 283px;
-        padding: 10px 19px;
-        left: 37px;
+        padding: 10px 20px;
+        margin-top: 8px;
     }
-    
+
+    .time-section .image-box {
+        width: 25%;
+    }
 
     .time-section {
-        margin-top: 0px;
-        position: relative;
-        bottom: 374px;
-        color: white;
-        position: relative;
-        right: 20px;
-        font-size: 15px;
+        margin-top: 3px;
     }
 
-    .light-grey {
-        color: white; 
+    #first-section {
+        padding: 120px 0 26px 0;
+    }
+
+    #third-section .container .flex {
+        flex-direction: column;
+    }
+
+    .Lsection {
+        order: 1;
+        padding-left: 82px;
+        padding-top: 0;
+    }
+
+    .Rsection {
+        order: 2;
+        width: 146%;
+        padding-left: 260px;
+    }
+
+    .Rsection .circle img {
+        width: 11%;
+        
+    }
+
+    .Lsection p {
+        padding-bottom: 50px;
+    }
+
+    .brand-text, .brand-row {
+        width: 146%;
+    }
+
+    .maximize1 img, .maximize2 img, .maximize3 img, .maximize4 img {
+        width: 33%;
+        margin-left: 93px;
+    }
+
+    .right-side {
+        width: 100%;
+    }
+
+    .footer-menu ul {
+        padding-right: 15px;
     }
 
 
-    .time-section img{
-        width: 1000%; 
+
+} 
+
+@media (max-width: 376px) {
+    #first-section, #second-section, #forth-section, #fifth-section, #faq, #footer, #customer-section, .Lsection, .Rsection  {
+        width: 161%;
     }
-} */
+}
+
+@media (max-width: 321px) {
+    #first-section, #second-section, #forth-section, #fifth-section, #faq, #footer, #customer-section, .Lsection, .Rsection  {
+        width: 188%;
+    }
+}
